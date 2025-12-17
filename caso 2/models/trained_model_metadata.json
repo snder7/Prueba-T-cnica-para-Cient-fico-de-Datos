@@ -1,0 +1,91 @@
+{
+    "model_name": "Linear Regression",
+    "model_scores": [
+        {
+            "model_name": "Linear Regression",
+            "train_mae": 1.6171,
+            "train_rmse": 2.0356,
+            "train_r2": 0.9887,
+            "test_mae": 1.6471,
+            "test_rmse": 2.075,
+            "test_r2": 0.9884,
+            "cv_r2_mean": 0.9887,
+            "cv_r2_std": 0.0003,
+            "overfit_score": 0.0003
+        },
+        {
+            "model_name": "Ridge Regression",
+            "train_mae": 1.617,
+            "train_rmse": 2.0356,
+            "train_r2": 0.9887,
+            "test_mae": 1.647,
+            "test_rmse": 2.0748,
+            "test_r2": 0.9884,
+            "cv_r2_mean": 0.9887,
+            "cv_r2_std": 0.0003,
+            "overfit_score": 0.0003
+        },
+        {
+            "model_name": "Gradient Boosting",
+            "train_mae": 1.4911,
+            "train_rmse": 1.8787,
+            "train_r2": 0.9904,
+            "test_mae": 1.698,
+            "test_rmse": 2.1392,
+            "test_r2": 0.9877,
+            "cv_r2_mean": 0.9876,
+            "cv_r2_std": 0.0002,
+            "overfit_score": 0.0027
+        },
+        {
+            "model_name": "XGBoost",
+            "train_mae": 1.5015,
+            "train_rmse": 1.8903,
+            "train_r2": 0.9903,
+            "test_mae": 1.7138,
+            "test_rmse": 2.1521,
+            "test_r2": 0.9876,
+            "cv_r2_mean": 0.9877,
+            "cv_r2_std": 0.0003,
+            "overfit_score": 0.0027
+        },
+        {
+            "model_name": "LightGBM",
+            "train_mae": 1.5209,
+            "train_rmse": 1.9162,
+            "train_r2": 0.99,
+            "test_mae": 1.7026,
+            "test_rmse": 2.1441,
+            "test_r2": 0.9876,
+            "cv_r2_mean": 0.9877,
+            "cv_r2_std": 0.0003,
+            "overfit_score": 0.0024
+        },
+        {
+            "model_name": "Random Forest",
+            "train_mae": 1.3256,
+            "train_rmse": 1.6691,
+            "train_r2": 0.9924,
+            "test_mae": 1.803,
+            "test_rmse": 2.2662,
+            "test_r2": 0.9862,
+            "cv_r2_mean": 0.9864,
+            "cv_r2_std": 0.0004,
+            "overfit_score": 0.0062
+        },
+        {
+            "model_name": "Lasso Regression",
+            "train_mae": 1.7763,
+            "train_rmse": 2.2322,
+            "train_r2": 0.9865,
+            "test_mae": 1.8536,
+            "test_rmse": 2.3249,
+            "test_r2": 0.9855,
+            "cv_r2_mean": 0.9864,
+            "cv_r2_std": 0.0004,
+            "overfit_score": 0.001
+        }
+    ],
+    "training_date": "2025-12-17 17:10:15",
+    "feature_importance": null
+}
