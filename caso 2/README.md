@@ -507,17 +507,6 @@ Una vez el contenedor esté corriendo:
 - API: http://localhost:8000
 - Docs: http://localhost:8000/docs
 
----
-
-## Mejoras Futuras
-
-- [ ] Implementar más algoritmos (Neural Networks, SVM)
-- [ ] Agregar autenticación a la API (JWT)
-- [ ] Dashboard interactivo con Streamlit
-- [ ] Deploy en cloud (AWS, GCP, Azure)
-- [ ] CI/CD pipeline con GitHub Actions
-- [ ] Monitoreo de modelo (model drift detection)
-- [ ] A/B testing de modelos
 
 ---
 
@@ -608,12 +597,7 @@ pip install -r requirements.txt
 
 ## Autor
 
-**Nombre:** Científico de Datos
+**Nombre:** Snaider Cantillo
 **Fecha:** 2025
 **Proyecto:** Prueba Técnica - Predicción de Rendimiento Estudiantil
 
----
-
-## Licencia
-
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
